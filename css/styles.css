@@ -343,10 +343,13 @@ a.current {
 
 /* footer */
 .footer {
-  display: block;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 .footer-logo {
   display: block;
@@ -386,6 +389,51 @@ a.current {
 .company-phone:hover,
 .company-phone:focus {
   color: var(--brand-color);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  margin-left: 70px;
+}
+.social-links-title {
+  color: var(--color-wtite);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+.social-links-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.social-links-icon {
+  fill: var(--color-wtite);
+}
+.social-link:hover {
+  background-color: var(--brand-color);
+}
+.social-links {
+  display: block;
+  width: 206px;
+}
+.social-links-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Portfolio */
