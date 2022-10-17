@@ -306,6 +306,7 @@ a.current {
   fill: var(--color-wtite);
 }
 .clients {
+  width: 100%;
 }
 .clients-title {
   font-weight: 700;
@@ -323,13 +324,18 @@ a.current {
   gap: 30px;
 }
 
-.clients-link {
+.clients-item {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 32px, 16px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+.clients-link {
+  padding: 32px, 16px;
 }
 .clients-icon {
   fill: var(--color-links-icon);
