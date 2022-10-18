@@ -324,19 +324,17 @@ a.current {
   gap: 30px;
 }
 
-.clients-item {
+.clients-link {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 32px, 16px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--color-links-icon);
   border-radius: 4px;
-  width: 100%;
-  height: 100%;
+  width: 170px;
+  height: 92px;
 }
-.clients-link {
-  padding: 32px, 16px;
-}
+
 .clients-icon {
   fill: var(--color-links-icon);
 }
@@ -413,6 +411,7 @@ a.current {
   line-height: 1.15;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .social-links-list {
   display: flex;
