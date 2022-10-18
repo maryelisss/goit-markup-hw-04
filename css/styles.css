@@ -430,7 +430,8 @@ a.current {
 .social-links-icon {
   fill: var(--color-wtite);
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--brand-color);
 }
 .social-links {
